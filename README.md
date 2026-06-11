@@ -1,52 +1,131 @@
-# MediQueue: Hospital Patient Scheduling System
+# MediQueue Engine
 
-A professional simulation of Operating System CPU Scheduling Algorithms applied to a real-world Hospital Patient Queue scenario. This project demonstrates how different scheduling algorithms process patients in a queue, complete with a breathtaking React UI and live execution timeline (Gantt Chart).
+AI-Based Smart Hospital Emergency Scheduling System using CPU Scheduling Algorithms.
 
-## 🚀 Features
+## Overview
 
-- **5 Scheduling Algorithms**: First Come First Serve (FCFS), Shortest Job First (SJF), Round Robin (RR), Priority Scheduling, and Shortest Remaining Time First (SRTF).
-- **Interactive Premium UI**: Stunning Dark Mode Glassmorphic interface built with React and Tailwind CSS.
-- **Smart Queue Management**: Features Starvation Prevention (Priority Aging) and an Algorithm Recommender based on active queue load.
-- **Live Timeline**: Real-time Gantt Chart visualization of patient treatment execution blocks.
-- **Secure Access**: Role-Based JSON Web Token (JWT) Authentication.
+MediQueue Engine is a real-time hospital emergency scheduling platform that applies CPU Scheduling Algorithms to optimize patient treatment workflows, reduce waiting times, and improve emergency handling efficiency.
 
-## 🛠️ Technology Stack
+This project transforms traditional Operating System scheduling concepts into a real-world healthcare resource optimization system.
 
-- **Backend**: Python, Flask, SQLAlchemy (SQLite), PyJWT
-- **Frontend**: React.js, Vite, Tailwind CSS, Chart.js
-- **Architecture**: Client-Server Monorepo
+---
 
-## ⚙️ How to Run Locally
+## Features
 
-This project is split into two parts: the Flask Backend and the React Frontend. You will need two separate terminal windows to run them simultaneously.
+* FCFS Scheduling
+* Priority Scheduling
+* Round Robin Scheduling
+* SJF & SRTF Algorithms
+* Real-Time Patient Queue
+* Emergency Triage System
+* Gantt Chart Execution Timeline
+* Live Metrics Dashboard
+* Waiting Time Analysis
+* Turnaround Time Analysis
+* Dynamic Scheduling Engine
+* Modern Responsive UI
 
-### 1. Start the Flask Backend
-Open a terminal, navigate to the backend directory, and install the Python dependencies:
+---
+
+## Real-World Mapping
+
+| Operating System | MediQueue Engine       |
+| ---------------- | ---------------------- |
+| Process          | Patient                |
+| CPU              | Doctor                 |
+| Burst Time       | Treatment Duration     |
+| Priority         | Emergency Severity     |
+| Scheduler        | Hospital Queue Manager |
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Chart.js
+
+### Backend
+
+* Flask
+* Python
+
+### Concepts Used
+
+* CPU Scheduling Algorithms
+* Queue Management
+* Priority Scheduling
+* Data Visualization
+* Simulation Systems
+
+---
+
+## Project Structure
+
+```bash
+SchedulerAI/
+│
+├── backend/
+├── frontend/
+├── docs/
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Run Locally
+
+### Backend
+
 ```bash
 cd backend
-python -m pip install -r requirements.txt
 python app.py
 ```
-*The backend will run on `http://localhost:5000`.*
 
-### 2. Start the React Frontend
-Open a second terminal, navigate to the frontend directory, and start the Vite development server:
+### Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-*The frontend will run on `http://localhost:5173`.*
 
-## 🔐 Demo Credentials
+---
 
-The system is secured with JWT authentication. Use any of the following mock credentials to log in:
+## Algorithms Implemented
 
-| Role | Username | Password |
-|------|----------|----------|
-| Administrator | `admin` | `admin123` |
-| Head Doctor | `doctor` | `doctor123` |
-| Receptionist | `receptionist` | `rec123` |
+* First Come First Serve (FCFS)
+* Shortest Job First (SJF)
+* Shortest Remaining Time First (SRTF)
+* Round Robin
+* Priority Scheduling
 
-## 📚 Educational Context
-This project was built to demonstrate the practical application of the **Analysis and Design of Algorithms (ADA)** by translating abstract CPU scheduling concepts into a tangible, real-world software engineering product.
+---
+
+## Performance Metrics
+
+* Average Waiting Time
+* Average Turnaround Time
+* Response Time
+* Throughput
+* Resource Utilization
+
+---
+
+## Future Enhancements
+
+* AI-Based Scheduling Recommendation
+* Multi-Hospital Integration
+* Multi-Doctor Simulation
+* Emergency Prediction System
+* Cloud-Based Monitoring
+
+---
+
+## Author
+
+Afshaan
+GitHub: AFSHAAN1705
